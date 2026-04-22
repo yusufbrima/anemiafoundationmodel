@@ -1,0 +1,30 @@
+# Core ML stack
+numpy
+pandas
+scikit-learn
+scipy
+
+# Gradient boosting models
+lightgbm
+xgboost
+
+# Tabular / deep / foundation models
+tabpfn
+tabpfn_client
+
+# Hyperparameter optimization
+optuna
+
+# Data handling
+pyreadstat
+joblib
+
+# Decision curve / evaluation
+dcurves
+statkit
+
+# Environment management
+python-dotenv
+
+# GPU acceleration (optional - CUDA 12)
+cupy-cuda12x
