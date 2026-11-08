@@ -4,6 +4,38 @@ Code accompanying the manuscript of the same title (Brima, Atemkeng, Kallon, Niy
 
 We compare Logistic Regression, LightGBM, XGBoost, and the tabular foundation model TabPFN for predicting childhood anemia (children aged 6–59 months) from harmonized Demographic and Health Surveys (DHS) children's recode (KR) data from 16 countries, under within-country, leave-one-country-out (LOCO), reverse-LOCO, and few-shot evaluation, with calibration, subgroup, decision curve, and SHAP analyses.
 
+## Key results
+
+### Few-shot learning
+With fewer than about 200 within-country training samples, TabPFN achieved higher AUC-ROC than the supervised models; the gap narrowed as labeled data accumulated.
+
+![Few-shot AUC-ROC by country](figures/fewshot_auc_by_country_clean.png)
+
+### Within-country discrimination
+AUC-ROC ranged from 0.53 to 0.76. Differences between countries were larger than differences between models; TabPFN's advantage was small but consistent across countries.
+
+![Within-country AUC-ROC](figures/anemia_model_performance_auc.png)
+
+### Leave-one-country-out generalization
+Performance declined modestly on unseen countries (AUC-ROC 0.57–0.70 for all but one country–model pair), and the target country mattered more than the choice of model.
+
+![LOCO AUC-ROC](figures/anemia_loco_auc.png)
+
+### Calibration
+With full within-country training data, TabPFN had the lowest mean Brier score (0.203) and expected calibration error (0.042).
+
+![Calibration curves by country](figures/figure_calibration_country_clean.png)
+
+### Decision curve analysis
+All models provided positive net benefit over treat-none across a broad range of thresholds, with small differences between models.
+
+![Decision curves by country](figures/figure_dca_country_clean.png)
+
+### Feature importance (TabPFN)
+Child age was the dominant predictor in most countries; the contribution of altitude, anthropometry, and household wealth varied across settings.
+
+![TabPFN feature importance by country](figures/tabpfn_feature_importance_countries.png)
+
 ## Data
 
 The DHS data are available from the [DHS Program](https://dhsprogram.com/Data/) upon registration and request. Under the DHS data use agreement they cannot be redistributed, so this repository contains **no microdata and no child-level outputs**. Only code and aggregate results (country-, model-, feature-, or subgroup-level) are included.
