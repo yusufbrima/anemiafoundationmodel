@@ -21,6 +21,11 @@ Performance declined modestly on unseen countries (AUC-ROC 0.57–0.70 for all b
 
 ![LOCO AUC-ROC](figures/anemia_loco_auc.png)
 
+### Reverse-LOCO transferability
+Training on a single country and testing on each of the other 15 (240 directed pairs) showed asymmetric transfer: Guatemala, Cameroon, Haiti, Congo DRC, and Bolivia were the most informative source countries, while models trained on Armenia, Liberia, or Jordan transferred poorly. As a single-country training source, TabPFN outperformed the other models in 75–97% of directed pairs.
+
+![Reverse-LOCO AUC-ROC heatmaps](figures/reverse_loco_plot.png)
+
 ### Calibration
 With full within-country training data, TabPFN had the lowest mean Brier score (0.203) and expected calibration error (0.042).
 
