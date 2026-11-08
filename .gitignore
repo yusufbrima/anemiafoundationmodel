@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+
+# DHS microdata and derived child-level files (not redistributable under the DHS data use agreement)
+DHS_Databases/
+*.dta
+*.DTA
+*.sav
+dhs_country_file_summary.csv
+dhs_country_file_summary_old.csv
+results/anemia_model_predictions_by_country.csv
+results/*_predictions*.csv
+
+# Python / Jupyter artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Superseded outputs and large raster figures
+*_old/
+*_old.csv
+*.tiff
+*.tif

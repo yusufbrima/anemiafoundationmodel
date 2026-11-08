@@ -1,0 +1,17 @@
+country,n_raw,n_after_preprocessing,n_age_unassigned,status
+Gabon_DHS_2019_2021,6376,4462,0,success
+Malawi_DHS_2024,12312,3923,0,success
+Rwanda_DHS_2019_2020,8092,3303,0,success
+Sierra_Leone_DHS_2019,9899,3367,0,success
+Haiti_DHS_2016-2017,6530,4773,0,success
+Jordan_DHS_2023,9106,4209,0,success
+Armenia_DHS_2015-2016,1724,1313,0,success
+Kyrgyz_Republic_DHS_2012,4363,3437,0,success
+Liberia_DHS_2019_2020,5704,2048,0,success
+Bolivia_DHS_2008,8605,2233,0,success
+Congo_DRC_DHS_2021_2022,24000,9002,0,success
+Guatemala_DHS_2014_2015,12440,9987,0,success
+Ghana_DHS_2022,9353,3742,0,success
+Gambia_DHS_2019_2020,8362,3146,0,success
+Cameroon_DHS_2018,9733,3825,0,success
+Mali_DHS_2023_2024,15631,6086,0,success

@@ -1,0 +1,2 @@
+n_raw,n_after_target_clean,n_excluded_missing_outcome,n_under_6,n_over_59,n_missing_age,n_outside_6_59,n_within_6_59,n_final,n_missing_predictors
+152230,71737,80493,63,0,2818,63,68856,71737,39585

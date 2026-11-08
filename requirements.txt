@@ -1,0 +1,33 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+
+# Gradient boosting models
+lightgbm
+xgboost
+
+# Tabular foundation model and interpretability
+torch
+tabpfn
+tabpfn-extensions[interpretability]
+shap
+
+# Hyperparameter optimization
+optuna
+
+# Data handling
+pyreadstat
+python-dotenv
+tqdm
+
+# Evaluation and plotting
+dcurves
+matplotlib
+seaborn
+networkx
+
+# GPU acceleration (optional - CUDA 12)
+# cupy-cuda12x

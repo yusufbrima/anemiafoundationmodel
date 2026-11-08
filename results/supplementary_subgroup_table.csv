@@ -1,0 +1,289 @@
+country,subgroup,subgroup_col,value,n_raw,n_after_cleaning,n_class_0,n_class_1,ml_valid,skip_reason
+Gabon_DHS_2019_2021,sex,b4,female,2165,1193,434.0,363.0,True,—
+Gabon_DHS_2019_2021,sex,b4,male,2297,1252,480.0,389.0,True,—
+Gabon_DHS_2019_2021,wealth,v190,poorest,1961,957,413.0,265.0,True,—
+Gabon_DHS_2019_2021,wealth,v190,richer,531,317,131.0,93.0,True,—
+Gabon_DHS_2019_2021,wealth,v190,middle,646,390,136.0,134.0,True,—
+Gabon_DHS_2019_2021,wealth,v190,poorer,947,559,215.0,181.0,True,—
+Gabon_DHS_2019_2021,wealth,v190,richest,377,222,103.0,63.0,True,—
+Gabon_DHS_2019_2021,education,v106,secondary,2817,1625,626.0,493.0,True,—
+Gabon_DHS_2019_2021,education,v106,no education,307,134,58.0,40.0,True,—
+Gabon_DHS_2019_2021,education,v106,primary,1064,500,189.0,157.0,True,—
+Gabon_DHS_2019_2021,education,v106,higher,274,186,87.0,56.0,True,—
+Gabon_DHS_2019_2021,residence,v025,urban,3035,1760,633.0,579.0,True,—
+Gabon_DHS_2019_2021,residence,v025,rural,1427,685,281.0,198.0,True,—
+Gabon_DHS_2019_2021,age_group,age_group,24–35m,1022,581,215.0,180.0,True,—
+Gabon_DHS_2019_2021,age_group,age_group,48–59m,932,309,134.0,91.0,True,—
+Gabon_DHS_2019_2021,age_group,age_group,12–23m,1127,858,374.0,246.0,True,—
+Gabon_DHS_2019_2021,age_group,age_group,36–47m,989,381,138.0,121.0,True,—
+Gabon_DHS_2019_2021,age_group,age_group,6–11m,392,316,124.0,96.0,True,—
+Malawi_DHS_2024,sex,b4,female,1970,911,395.0,268.0,True,—
+Malawi_DHS_2024,sex,b4,male,1953,887,350.0,272.0,True,—
+Malawi_DHS_2024,wealth,v190,poorer,695,346,155.0,102.0,True,—
+Malawi_DHS_2024,wealth,v190,richer,740,338,130.0,106.0,True,—
+Malawi_DHS_2024,wealth,v190,middle,651,327,145.0,91.0,True,—
+Malawi_DHS_2024,wealth,v190,richest,765,372,160.0,110.0,True,—
+Malawi_DHS_2024,wealth,v190,poorest,852,415,155.0,131.0,True,—
+Malawi_DHS_2024,wealth,v190,nan,220,0,,,False,insufficient_n_after_cleaning (n=0)
+Malawi_DHS_2024,education,v106,primary,2565,1195,496.0,353.0,True,—
+Malawi_DHS_2024,education,v106,secondary,990,467,200.0,141.0,True,—
+Malawi_DHS_2024,education,v106,no education,288,102,35.0,34.0,True,—
+Malawi_DHS_2024,education,v106,higher,80,34,15.0,11.0,False,insufficient_n_after_cleaning (n=34)
+Malawi_DHS_2024,residence,v025,rural,3245,1468,609.0,434.0,True,—
+Malawi_DHS_2024,residence,v025,urban,678,330,136.0,106.0,True,—
+Malawi_DHS_2024,age_group,age_group,48–59m,930,0,,,False,insufficient_n_after_cleaning (n=0)
+Malawi_DHS_2024,age_group,age_group,24–35m,889,726,389.0,165.0,True,—
+Malawi_DHS_2024,age_group,age_group,12–23m,944,819,293.0,275.0,True,—
+Malawi_DHS_2024,age_group,age_group,36–47m,881,2,1.0,1.0,False,insufficient_n_after_cleaning (n=2)
+Malawi_DHS_2024,age_group,age_group,6–11m,279,251,101.0,81.0,True,—
+Rwanda_DHS_2019_2020,sex,b4,male,1670,1160,707.0,250.0,True,—
+Rwanda_DHS_2019_2020,sex,b4,female,1633,1111,716.0,245.0,True,—
+Rwanda_DHS_2019_2020,wealth,v190,richer,598,428,278.0,87.0,True,—
+Rwanda_DHS_2019_2020,wealth,v190,richest,604,435,289.0,93.0,True,—
+Rwanda_DHS_2019_2020,wealth,v190,poorest,790,501,290.0,112.0,True,—
+Rwanda_DHS_2019_2020,wealth,v190,poorer,677,441,279.0,98.0,True,—
+Rwanda_DHS_2019_2020,wealth,v190,middle,634,466,287.0,105.0,True,—
+Rwanda_DHS_2019_2020,education,v106,secondary,586,428,255.0,100.0,True,—
+Rwanda_DHS_2019_2020,education,v106,higher,149,110,74.0,24.0,True,—
+Rwanda_DHS_2019_2020,education,v106,primary,2171,1496,949.0,318.0,True,—
+Rwanda_DHS_2019_2020,education,v106,no education,397,237,145.0,53.0,True,—
+Rwanda_DHS_2019_2020,residence,v025,rural,2604,1767,1092.0,389.0,True,—
+Rwanda_DHS_2019_2020,residence,v025,urban,699,504,331.0,106.0,True,—
+Rwanda_DHS_2019_2020,age_group,age_group,36–47m,731,419,303.0,76.0,True,—
+Rwanda_DHS_2019_2020,age_group,age_group,6–11m,284,253,87.0,83.0,True,—
+Rwanda_DHS_2019_2020,age_group,age_group,48–59m,720,303,235.0,43.0,True,—
+Rwanda_DHS_2019_2020,age_group,age_group,24–35m,785,604,420.0,110.0,True,—
+Rwanda_DHS_2019_2020,age_group,age_group,12–23m,783,692,378.0,184.0,True,—
+Sierra_Leone_DHS_2019,sex,b4,male,1720,1148,440.0,343.0,True,—
+Sierra_Leone_DHS_2019,sex,b4,female,1647,1077,357.0,354.0,True,—
+Sierra_Leone_DHS_2019,wealth,v190,poorest,933,563,220.0,167.0,True,—
+Sierra_Leone_DHS_2019,wealth,v190,middle,714,462,172.0,146.0,True,—
+Sierra_Leone_DHS_2019,wealth,v190,poorer,748,480,196.0,145.0,True,—
+Sierra_Leone_DHS_2019,wealth,v190,richer,577,429,147.0,140.0,True,—
+Sierra_Leone_DHS_2019,wealth,v190,richest,395,291,137.0,80.0,True,—
+Sierra_Leone_DHS_2019,education,v106,no education,1905,1177,459.0,370.0,True,—
+Sierra_Leone_DHS_2019,education,v106,primary,529,344,126.0,108.0,True,—
+Sierra_Leone_DHS_2019,education,v106,secondary,848,636,238.0,191.0,True,—
+Sierra_Leone_DHS_2019,education,v106,higher,85,68,34.0,19.0,True,—
+Sierra_Leone_DHS_2019,residence,v025,rural,2352,1476,582.0,454.0,True,—
+Sierra_Leone_DHS_2019,residence,v025,urban,1015,749,302.0,224.0,True,—
+Sierra_Leone_DHS_2019,age_group,age_group,24–35m,770,563,197.0,182.0,True,—
+Sierra_Leone_DHS_2019,age_group,age_group,12–23m,851,766,314.0,250.0,True,—
+Sierra_Leone_DHS_2019,age_group,age_group,48–59m,709,265,120.0,76.0,True,—
+Sierra_Leone_DHS_2019,age_group,age_group,36–47m,721,354,144.0,107.0,True,—
+Sierra_Leone_DHS_2019,age_group,age_group,6–11m,316,277,114.0,94.0,True,—
+Haiti_DHS_2016-2017,sex,b4,female,2362,1472,532.0,519.0,True,—
+Haiti_DHS_2016-2017,sex,b4,male,2411,1515,576.0,457.0,True,—
+Haiti_DHS_2016-2017,wealth,v190,poorer,1063,642,241.0,204.0,True,—
+Haiti_DHS_2016-2017,wealth,v190,middle,931,628,260.0,183.0,True,—
+Haiti_DHS_2016-2017,wealth,v190,richest,534,421,179.0,126.0,True,—
+Haiti_DHS_2016-2017,wealth,v190,richer,743,533,197.0,175.0,True,—
+Haiti_DHS_2016-2017,wealth,v190,poorest,1502,763,302.0,249.0,True,—
+Haiti_DHS_2016-2017,education,v106,primary,1928,1172,454.0,366.0,True,—
+Haiti_DHS_2016-2017,education,v106,secondary,1675,1230,454.0,407.0,True,—
+Haiti_DHS_2016-2017,education,v106,higher,133,106,50.0,29.0,True,—
+Haiti_DHS_2016-2017,education,v106,no education,1037,479,174.0,153.0,True,—
+Haiti_DHS_2016-2017,residence,v025,rural,3405,2010,759.0,650.0,True,—
+Haiti_DHS_2016-2017,residence,v025,urban,1368,977,349.0,326.0,True,—
+Haiti_DHS_2016-2017,age_group,age_group,24–35m,1119,753,258.0,257.0,True,—
+Haiti_DHS_2016-2017,age_group,age_group,12–23m,1133,897,465.0,240.0,True,—
+Haiti_DHS_2016-2017,age_group,age_group,36–47m,1017,535,211.0,164.0,True,—
+Haiti_DHS_2016-2017,age_group,age_group,48–59m,1111,489,263.0,141.0,True,—
+Haiti_DHS_2016-2017,age_group,age_group,6–11m,393,313,151.0,86.0,True,—
+Jordan_DHS_2023,sex,b4,female,2063,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,sex,b4,male,2146,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,wealth,v190,middle,774,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,wealth,v190,poorer,970,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,wealth,v190,richest,237,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,wealth,v190,richer,580,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,wealth,v190,poorest,1648,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,education,v106,primary,388,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,education,v106,higher,1274,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,education,v106,secondary,2414,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,education,v106,no education,133,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,residence,v025,urban,3478,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,residence,v025,rural,731,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,age_group,age_group,48–59m,1136,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,age_group,age_group,36–47m,1062,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,age_group,age_group,12–23m,892,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,age_group,age_group,24–35m,840,0,,,False,insufficient_n_after_cleaning (n=0)
+Jordan_DHS_2023,age_group,age_group,6–11m,279,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,sex,b4,female,606,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,sex,b4,male,707,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,wealth,v190,richest,215,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,wealth,v190,richer,241,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,wealth,v190,middle,294,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,wealth,v190,poorest,284,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,wealth,v190,poorer,279,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,education,v106,higher,654,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,education,v106,secondary,582,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,education,v106,basic,77,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,residence,v025,urban,714,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,residence,v025,rural,599,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,age_group,age_group,36–47m,309,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,age_group,age_group,48–59m,304,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,age_group,age_group,12–23m,303,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,age_group,age_group,6–11m,99,0,,,False,insufficient_n_after_cleaning (n=0)
+Armenia_DHS_2015-2016,age_group,age_group,24–35m,298,0,,,False,insufficient_n_after_cleaning (n=0)
+Kyrgyz_Republic_DHS_2012,sex,b4,male,1754,1123,577.0,275.0,True,—
+Kyrgyz_Republic_DHS_2012,sex,b4,female,1683,1046,569.0,235.0,True,—
+Kyrgyz_Republic_DHS_2012,wealth,v190,poorest,759,481,242.0,118.0,True,—
+Kyrgyz_Republic_DHS_2012,wealth,v190,middle,786,488,267.0,114.0,True,—
+Kyrgyz_Republic_DHS_2012,wealth,v190,richest,457,304,171.0,74.0,True,—
+Kyrgyz_Republic_DHS_2012,wealth,v190,poorer,770,472,242.0,121.0,True,—
+Kyrgyz_Republic_DHS_2012,wealth,v190,richer,665,424,224.0,107.0,True,—
+Kyrgyz_Republic_DHS_2012,education,v106,higher,1481,963,487.0,244.0,True,—
+Kyrgyz_Republic_DHS_2012,education,v106,secondary,1944,1200,654.0,265.0,True,—
+Kyrgyz_Republic_DHS_2012,education,v106,primary,11,5,4.0,1.0,False,insufficient_n_after_cleaning (n=5)
+Kyrgyz_Republic_DHS_2012,education,v106,no education,1,1,1.0,0.0,False,insufficient_n_after_cleaning (n=1)
+Kyrgyz_Republic_DHS_2012,residence,v025,urban,855,570,313.0,127.0,True,—
+Kyrgyz_Republic_DHS_2012,residence,v025,rural,2582,1599,833.0,383.0,True,—
+Kyrgyz_Republic_DHS_2012,age_group,age_group,24–35m,811,499,268.0,115.0,True,—
+Kyrgyz_Republic_DHS_2012,age_group,age_group,36–47m,781,388,257.0,77.0,True,—
+Kyrgyz_Republic_DHS_2012,age_group,age_group,12–23m,843,714,294.0,224.0,True,—
+Kyrgyz_Republic_DHS_2012,age_group,age_group,48–59m,695,293,216.0,48.0,True,—
+Kyrgyz_Republic_DHS_2012,age_group,age_group,6–11m,307,275,111.0,95.0,True,—
+Liberia_DHS_2019_2020,sex,b4,female,1051,668,260.0,210.0,True,—
+Liberia_DHS_2019_2020,sex,b4,male,997,643,298.0,171.0,True,—
+Liberia_DHS_2019_2020,wealth,v190,middle,395,268,117.0,82.0,True,—
+Liberia_DHS_2019_2020,wealth,v190,poorest,717,410,170.0,115.0,True,—
+Liberia_DHS_2019_2020,wealth,v190,poorer,574,385,161.0,115.0,True,—
+Liberia_DHS_2019_2020,wealth,v190,richer,223,155,68.0,48.0,True,—
+Liberia_DHS_2019_2020,wealth,v190,richest,139,93,42.0,29.0,True,—
+Liberia_DHS_2019_2020,education,v106,secondary,509,368,159.0,107.0,True,—
+Liberia_DHS_2019_2020,education,v106,primary,611,404,190.0,108.0,True,—
+Liberia_DHS_2019_2020,education,v106,no education,898,521,204.0,162.0,True,—
+Liberia_DHS_2019_2020,education,v106,higher,30,18,7.0,6.0,False,insufficient_n_after_cleaning (n=18)
+Liberia_DHS_2019_2020,residence,v025,rural,1412,873,369.0,243.0,True,—
+Liberia_DHS_2019_2020,residence,v025,urban,636,438,189.0,122.0,True,—
+Liberia_DHS_2019_2020,age_group,age_group,24–35m,457,319,137.0,97.0,True,—
+Liberia_DHS_2019_2020,age_group,age_group,12–23m,515,423,211.0,106.0,True,—
+Liberia_DHS_2019_2020,age_group,age_group,6–11m,204,173,85.0,44.0,True,—
+Liberia_DHS_2019_2020,age_group,age_group,48–59m,431,172,73.0,49.0,True,—
+Liberia_DHS_2019_2020,age_group,age_group,36–47m,441,224,78.0,74.0,True,—
+Bolivia_DHS_2008,sex,b4,female,1054,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,sex,b4,male,1179,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,wealth,v190,poorer,493,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,wealth,v190,middle,458,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,wealth,v190,richer,378,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,wealth,v190,richest,281,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,wealth,v190,poorest,623,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,education,v106,no education,101,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,education,v106,primary,1237,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,education,v106,higher,280,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,education,v106,secondary,615,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,residence,v025,urban,1136,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,residence,v025,rural,1097,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,age_group,age_group,24–35m,496,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,age_group,age_group,48–59m,498,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,age_group,age_group,36–47m,536,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,age_group,age_group,6–11m,179,0,,,False,insufficient_n_after_cleaning (n=0)
+Bolivia_DHS_2008,age_group,age_group,12–23m,524,0,,,False,insufficient_n_after_cleaning (n=0)
+Congo_DRC_DHS_2021_2022,sex,b4,female,4409,1330,480.0,440.0,True,—
+Congo_DRC_DHS_2021_2022,sex,b4,male,4593,1465,591.0,441.0,True,—
+Congo_DRC_DHS_2021_2022,wealth,v190,poorer,2350,714,275.0,207.0,True,—
+Congo_DRC_DHS_2021_2022,wealth,v190,poorest,2665,729,323.0,198.0,True,—
+Congo_DRC_DHS_2021_2022,wealth,v190,richer,1276,432,152.0,151.0,True,—
+Congo_DRC_DHS_2021_2022,wealth,v190,richest,671,272,105.0,82.0,True,—
+Congo_DRC_DHS_2021_2022,wealth,v190,middle,2040,648,239.0,220.0,True,—
+Congo_DRC_DHS_2021_2022,education,v106,primary,3070,858,337.0,262.0,True,—
+Congo_DRC_DHS_2021_2022,education,v106,no education,2034,467,195.0,139.0,True,—
+Congo_DRC_DHS_2021_2022,education,v106,secondary,3715,1386,512.0,445.0,True,—
+Congo_DRC_DHS_2021_2022,education,v106,higher,183,84,35.0,27.0,True,—
+Congo_DRC_DHS_2021_2022,residence,v025,rural,6777,2005,800.0,613.0,True,—
+Congo_DRC_DHS_2021_2022,residence,v025,urban,2225,790,271.0,268.0,True,—
+Congo_DRC_DHS_2021_2022,age_group,age_group,48–59m,2029,0,,,False,insufficient_n_after_cleaning (n=0)
+Congo_DRC_DHS_2021_2022,age_group,age_group,36–47m,2091,1,1.0,0.0,False,insufficient_n_after_cleaning (n=1)
+Congo_DRC_DHS_2021_2022,age_group,age_group,12–23m,2090,1345,534.0,407.0,True,—
+Congo_DRC_DHS_2021_2022,age_group,age_group,6–11m,723,498,236.0,141.0,True,—
+Congo_DRC_DHS_2021_2022,age_group,age_group,24–35m,2069,951,370.0,300.0,True,—
+Guatemala_DHS_2014_2015,sex,b4,female,4853,3155,2044.0,681.0,True,—
+Guatemala_DHS_2014_2015,sex,b4,male,5134,3454,2225.0,728.0,True,—
+Guatemala_DHS_2014_2015,wealth,v190,richest,1228,999,758.0,188.0,True,—
+Guatemala_DHS_2014_2015,wealth,v190,richer,1731,1322,921.0,259.0,True,—
+Guatemala_DHS_2014_2015,wealth,v190,middle,2017,1391,878.0,300.0,True,—
+Guatemala_DHS_2014_2015,wealth,v190,poorer,2288,1405,872.0,319.0,True,—
+Guatemala_DHS_2014_2015,wealth,v190,poorest,2723,1492,840.0,343.0,True,—
+Guatemala_DHS_2014_2015,education,v106,secondary,2409,1855,1300.0,355.0,True,—
+Guatemala_DHS_2014_2015,education,v106,higher,355,289,227.0,50.0,True,—
+Guatemala_DHS_2014_2015,education,v106,primary,5353,3466,2146.0,770.0,True,—
+Guatemala_DHS_2014_2015,education,v106,no education,1870,999,596.0,234.0,True,—
+Guatemala_DHS_2014_2015,residence,v025,urban,3398,2489,1753.0,466.0,True,—
+Guatemala_DHS_2014_2015,residence,v025,rural,6589,4120,2516.0,943.0,True,—
+Guatemala_DHS_2014_2015,age_group,age_group,24–35m,2366,1674,1212.0,313.0,True,—
+Guatemala_DHS_2014_2015,age_group,age_group,48–59m,2256,1026,865.0,116.0,True,—
+Guatemala_DHS_2014_2015,age_group,age_group,36–47m,2335,1295,1022.0,202.0,True,—
+Guatemala_DHS_2014_2015,age_group,age_group,12–23m,2329,1984,975.0,571.0,True,—
+Guatemala_DHS_2014_2015,age_group,age_group,6–11m,701,630,221.0,207.0,True,—
+Ghana_DHS_2022,sex,b4,female,1841,891,366.0,268.0,True,—
+Ghana_DHS_2022,sex,b4,male,1901,903,318.0,308.0,True,—
+Ghana_DHS_2022,wealth,v190,middle,680,336,133.0,113.0,True,—
+Ghana_DHS_2022,wealth,v190,richer,531,261,115.0,78.0,True,—
+Ghana_DHS_2022,wealth,v190,poorer,894,434,157.0,135.0,True,—
+Ghana_DHS_2022,wealth,v190,richest,432,203,129.0,46.0,True,—
+Ghana_DHS_2022,wealth,v190,poorest,1205,560,238.0,160.0,True,—
+Ghana_DHS_2022,education,v106,secondary,1688,855,375.0,260.0,True,—
+Ghana_DHS_2022,education,v106,primary,578,285,98.0,97.0,True,—
+Ghana_DHS_2022,education,v106,higher,270,134,73.0,39.0,True,—
+Ghana_DHS_2022,education,v106,no education,1206,520,218.0,144.0,True,—
+Ghana_DHS_2022,residence,v025,rural,2198,1045,366.0,356.0,True,—
+Ghana_DHS_2022,residence,v025,urban,1544,749,328.0,227.0,True,—
+Ghana_DHS_2022,age_group,age_group,24–35m,833,598,284.0,170.0,True,—
+Ghana_DHS_2022,age_group,age_group,12–23m,1012,887,322.0,289.0,True,—
+Ghana_DHS_2022,age_group,age_group,6–11m,340,309,111.0,106.0,True,—
+Ghana_DHS_2022,age_group,age_group,36–47m,829,0,,,False,insufficient_n_after_cleaning (n=0)
+Ghana_DHS_2022,age_group,age_group,48–59m,728,0,,,False,insufficient_n_after_cleaning (n=0)
+Gambia_DHS_2019_2020,sex,b4,female,1496,826,383.0,235.0,True,—
+Gambia_DHS_2019_2020,sex,b4,male,1650,944,413.0,277.0,True,—
+Gambia_DHS_2019_2020,wealth,v190,middle,606,362,186.0,86.0,True,—
+Gambia_DHS_2019_2020,wealth,v190,poorer,708,374,163.0,129.0,True,—
+Gambia_DHS_2019_2020,wealth,v190,richer,422,268,157.0,63.0,True,—
+Gambia_DHS_2019_2020,wealth,v190,richest,338,215,136.0,47.0,True,—
+Gambia_DHS_2019_2020,wealth,v190,poorest,1072,551,219.0,155.0,True,—
+Gambia_DHS_2019_2020,education,v106,no education,1632,873,337.0,282.0,True,—
+Gambia_DHS_2019_2020,education,v106,secondary,837,499,272.0,120.0,True,—
+Gambia_DHS_2019_2020,education,v106,primary,589,332,142.0,101.0,True,—
+Gambia_DHS_2019_2020,education,v106,higher,88,66,45.0,12.0,True,—
+Gambia_DHS_2019_2020,residence,v025,urban,1437,866,498.0,197.0,True,—
+Gambia_DHS_2019_2020,residence,v025,rural,1709,904,345.0,298.0,True,—
+Gambia_DHS_2019_2020,age_group,age_group,36–47m,725,282,152.0,78.0,True,—
+Gambia_DHS_2019_2020,age_group,age_group,24–35m,709,418,173.0,121.0,True,—
+Gambia_DHS_2019_2020,age_group,age_group,6–11m,248,207,104.0,51.0,True,—
+Gambia_DHS_2019_2020,age_group,age_group,48–59m,668,198,140.0,30.0,True,—
+Gambia_DHS_2019_2020,age_group,age_group,12–23m,796,665,266.0,227.0,True,—
+Cameroon_DHS_2018,sex,b4,male,1928,968,386.0,300.0,True,—
+Cameroon_DHS_2018,sex,b4,female,1897,935,407.0,281.0,True,—
+Cameroon_DHS_2018,wealth,v190,poorer,896,403,154.0,137.0,True,—
+Cameroon_DHS_2018,wealth,v190,middle,872,446,173.0,130.0,True,—
+Cameroon_DHS_2018,wealth,v190,poorest,747,261,96.0,86.0,True,—
+Cameroon_DHS_2018,wealth,v190,richer,782,444,219.0,116.0,True,—
+Cameroon_DHS_2018,wealth,v190,richest,528,349,178.0,85.0,True,—
+Cameroon_DHS_2018,education,v106,secondary,1412,847,390.0,224.0,True,—
+Cameroon_DHS_2018,education,v106,primary,1343,653,236.0,231.0,True,—
+Cameroon_DHS_2018,education,v106,no education,880,283,105.0,98.0,True,—
+Cameroon_DHS_2018,education,v106,higher,190,120,67.0,29.0,True,—
+Cameroon_DHS_2018,residence,v025,urban,1715,972,457.0,254.0,True,—
+Cameroon_DHS_2018,residence,v025,rural,2110,931,336.0,327.0,True,—
+Cameroon_DHS_2018,age_group,age_group,12–23m,928,715,283.0,224.0,True,—
+Cameroon_DHS_2018,age_group,age_group,48–59m,848,199,116.0,44.0,True,—
+Cameroon_DHS_2018,age_group,age_group,36–47m,859,291,162.0,66.0,True,—
+Cameroon_DHS_2018,age_group,age_group,6–11m,317,248,84.0,80.0,True,—
+Cameroon_DHS_2018,age_group,age_group,24–35m,873,450,207.0,123.0,True,—
+Mali_DHS_2023_2024,sex,b4,female,2982,1043,506.0,302.0,True,—
+Mali_DHS_2023_2024,sex,b4,male,3104,1032,597.0,238.0,True,—
+Mali_DHS_2023_2024,wealth,v190,richest,929,424,168.0,144.0,True,—
+Mali_DHS_2023_2024,wealth,v190,richer,1176,418,219.0,107.0,True,—
+Mali_DHS_2023_2024,wealth,v190,poorer,1295,395,230.0,92.0,True,—
+Mali_DHS_2023_2024,wealth,v190,middle,1507,463,268.0,110.0,True,—
+Mali_DHS_2023_2024,wealth,v190,poorest,1179,375,218.0,87.0,True,—
+Mali_DHS_2023_2024,education,v106,secondary,1121,522,256.0,140.0,True,—
+Mali_DHS_2023_2024,education,v106,no education,3853,1112,624.0,286.0,True,—
+Mali_DHS_2023_2024,education,v106,primary,1001,383,209.0,93.0,True,—
+Mali_DHS_2023_2024,education,v106,higher,111,58,23.0,21.0,True,—
+Mali_DHS_2023_2024,residence,v025,urban,1380,582,244.0,191.0,True,—
+Mali_DHS_2023_2024,residence,v025,rural,4706,1493,859.0,349.0,True,—
+Mali_DHS_2023_2024,age_group,age_group,24–35m,1468,756,368.0,221.0,True,—
+Mali_DHS_2023_2024,age_group,age_group,48–59m,1318,0,,,False,insufficient_n_after_cleaning (n=0)
+Mali_DHS_2023_2024,age_group,age_group,12–23m,1435,1003,583.0,236.0,True,—
+Mali_DHS_2023_2024,age_group,age_group,36–47m,1426,0,,,False,insufficient_n_after_cleaning (n=0)
+Mali_DHS_2023_2024,age_group,age_group,6–11m,439,316,152.0,83.0,True,—
