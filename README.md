@@ -28,26 +28,26 @@ The analyses were run with Python 3.12 on a single NVIDIA A100 GPU. TabPFN is ru
 
 Run the scripts from the repository root, in this order.
 
-| Step | Script | Produces | Manuscript |
-|---|---|---|---|
-| 1 | `extract.py` | Unzips the downloaded DHS archives | – |
-| 2 | `harmonize.py` | Survey registry `dhs_country_file_summary.csv` (local paths, not tracked) | – |
-| 3 | `merger.py` | Harmonized KR files | – |
-| 4 | `constructor.py` | `results/dhs_country_data_summary.csv` | Table 1 |
-| 5 | `flow_chart.py` | `results/exclusion_counts_*.csv` | Fig. A1, Table A1 |
-| 6 | `missing.py` | `results/missingness_*.csv` | Table 3, Table A3 |
-| 7 | `prevalence.py` | `results/country_anemia_prevalence.csv` | Table A2 |
-| 8 | `hyperparam.py` | `results/best_hyperparameters.json` (Optuna, tuned once on 80% of the pooled data) | Table A4 |
-| 9 | `anemia_ci.py` | `results/anemia_model_results_by_country*.csv` (stratified 80/20 split, BCa bootstrap CIs) | Table B5, Fig. 3, Table 5 |
-| 10 | `anemia_ci_sensitivity.py` | `results/anemia_model_results_by_country_{mice,knn}.csv` | Tables B6–B7, Table 6, Fig. 4 |
-| 11 | `calibration.py` | Calibration metrics and predictions for decision curves (child-level predictions stay local) | Table 4, Table E10, Figs. 2 and 8 |
-| 12 | `few_shot_ci_robust.py` | `results/<country>_fewshot_results.csv` | Fig. 1 |
-| 13 | `loco_ci.py` | `results/anemia_loco_results.csv` | Table C8, Fig. 5, Table 7 |
-| 14 | `loco_reverse_ci.py` | `results/anemia_reverse_loco_results.csv` | Fig. 6, Table 8 |
-| 15 | `sub_group.py`, `sub_group_age.py` | `results/subgroup_analysis_optuna_models*.csv` (complete cases) | Fig. 7 |
-| 16 | `sub_group_stat.py` | `results/supplementary_subgroup_table.csv` | Table D9 |
-| 17 | `shap_analysis.py` | SHAP / shapiq feature attributions | Figs. 9–10, Figs. F2–F4 |
-| 18 | `Visualize.ipynb` | Figures and statistical comparisons (paired Wilcoxon tests with Holm adjustment, country-level cluster bootstrap) | Figures, Tables 5, 7, 8 |
+| Step | Script | Produces |
+|---|---|---|
+| 1 | `extract.py` | Unzips the downloaded DHS archives |
+| 2 | `harmonize.py` | Survey registry `dhs_country_file_summary.csv` (local paths, not tracked) |
+| 3 | `merger.py` | Harmonized KR files |
+| 4 | `constructor.py` | `results/dhs_country_data_summary.csv` |
+| 5 | `flow_chart.py` | `results/exclusion_counts_*.csv` |
+| 6 | `missing.py` | `results/missingness_*.csv` |
+| 7 | `prevalence.py` | `results/country_anemia_prevalence.csv` |
+| 8 | `hyperparam.py` | `results/best_hyperparameters.json` (Optuna, tuned once on 80% of the pooled data) |
+| 9 | `anemia_ci.py` | `results/anemia_model_results_by_country*.csv` (stratified 80/20 split, BCa bootstrap CIs) |
+| 10 | `anemia_ci_sensitivity.py` | `results/anemia_model_results_by_country_{mice,knn}.csv` |
+| 11 | `calibration.py` | Calibration metrics and predictions for decision curves (child-level predictions stay local) |
+| 12 | `few_shot_ci_robust.py` | `results/<country>_fewshot_results.csv` |
+| 13 | `loco_ci.py` | `results/anemia_loco_results.csv` |
+| 14 | `loco_reverse_ci.py` | `results/anemia_reverse_loco_results.csv` |
+| 15 | `sub_group.py`, `sub_group_age.py` | `results/subgroup_analysis_optuna_models*.csv` (complete cases) |
+| 16 | `sub_group_stat.py` | `results/supplementary_subgroup_table.csv` |
+| 17 | `shap_analysis.py` | SHAP / shapiq feature attributions |
+| 18 | `Visualize.ipynb` | Figures and statistical comparisons (paired Wilcoxon tests with Holm adjustment, country-level cluster bootstrap) |
 
 `Cleaner.ipynb` contains additional figure-formatting code. Shared preprocessing (DHS missing codes, outcome definition, imputation fitted on the training partition, standardization) is in `util.py`, and the predictor list is in `config.py`. `confidenceinterval/` is a vendored copy of the bootstrap confidence-interval utilities used for all reported CIs.
 
